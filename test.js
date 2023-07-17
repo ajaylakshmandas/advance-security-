@@ -1,4 +1,4 @@
-function endsWith(x,y) {
+unction endsWith(x,y) {
 
   let index = x.lastIndexOf(y);
   return x.lastIndexOf(y) === x.length - y.length;
