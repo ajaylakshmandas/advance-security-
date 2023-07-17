@@ -1,5 +1,9 @@
-function endsWith(x,y) {
+tion endsWith(x,y) {
 
+  let index = x.lastIndexOf(y);
+  return x.lastIndexOf(y) === x.length - y.length;
+
+}
   let index = x.lastIndexOf(y);
   return x.lastIndexOf(y) === x.length - y.length;
 
